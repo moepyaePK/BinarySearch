@@ -20,7 +20,7 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit for testing -->
+        <!-- JUnit for testing (no known vulnerabilities) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
