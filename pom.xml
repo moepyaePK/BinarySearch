@@ -20,19 +20,12 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit for testing -->
+        <!-- JUnit for testing (no known vulnerabilities) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version>
             <scope>test</scope>
-        </dependency>
-        
-        <!-- Apache Commons Lang (PATCHED VERSION - no vulnerabilities) -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.17.0</version>
         </dependency>
     </dependencies>
 
