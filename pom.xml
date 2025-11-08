@@ -28,11 +28,11 @@
             <scope>test</scope>
         </dependency>
         
-        <!-- ADD THIS NEW DEPENDENCY -->
+        <!-- Apache Commons Lang (PATCHED VERSION - no vulnerabilities) -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.14.0</version>
+            <version>3.17.0</version>
         </dependency>
     </dependencies>
 
